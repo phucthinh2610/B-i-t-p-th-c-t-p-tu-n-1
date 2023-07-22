@@ -1,0 +1,237 @@
+
+.header-bottom {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 10;
+}
+.header-bottom-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    margin-left: 100px;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+.menu-list {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav-link-custom {
+    color: #130f40;
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight: 500;
+} 
+
+.header__nav-list{
+    justify-content:center;
+    color: black;
+    justify-content: space-between;
+    margin: 0 200px;
+    font-weight: 700;
+    display: flex;
+}
+
+  
+    /* bắt đầu responsive */
+#toggle{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor : pointer;
+    display: none;
+}
+
+@media screen  and (max-width : 768px)
+{
+    main-menu {
+        flex-direction: column;
+        text-align:center;
+    }
+    #toggle{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+}
+    /* kết thúc responsive */
+/* end header */
+
+
+.background{
+    margin-top: 50px;
+    padding: 100px; 
+    margin-right: 400px;    
+    margin-bottom: 50px;
+}
+
+.background h3{
+    color: orange;
+}
+
+.background p a {
+    color: white;
+    text-decoration: none;
+}
+ /* end banner */
+
+
+
+.khoanggia p a {
+    color: white;
+}
+
+
+  /* end sidebar */
+
+  .easy-img {
+    position: absolute;
+    flex: 1;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    margin-top: -6px;
+  }
+
+.card__title {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    width:30;
+}
+
+.h3 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    width:30;
+}
+
+
+.rating {
+    color: chocolate;
+}
+
+.price {
+    font-weight: 700;
+}
+
+  .img__course {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.price__range {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.832);
+    font-weight: bold;
+}
+
+  .course {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.832);
+}
+  .price__course {
+    font-size: 14px;
+    font-weight: 200;
+}
+  .courses {
+    min-height: 240px;
+    
+}
+
+
+
+
+    /* end content */
+
+
+.footer1 {
+    background: #00008B ;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+
+.footer1 h7{
+    color: white;
+}
+
+.footer1 h5{
+    color: white;
+}
+
+.footer1 h6{
+    color: chocolate;
+    padding-bottom: 19px;
+}
+
+
+
+
+.footer1 h4{
+    color: chocolate;
+    padding-bottom: 5px;
+ }
+
+ .footer1 h4 img {
+    padding: auto;
+ }
+
+.footer1 li{
+   display: inline;
+    float:none;
+    list-style: none;
+}
+
+.footer1 li a {
+    color: white;
+    display:inline-block;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    margin: 13 0px;
+    
+}
+
+.footer1 ul{
+    display: inline;
+}
+
+.footer2{
+    background: #00008B ;
+    color : white;
+    padding: 13px;
+}
+
+.footer2 p {
+    padding-top: 8px;
+}
+    /*end footer */
+
+
+
