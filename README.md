@@ -1,1 +1,0 @@
-# B-i-t-p-th-c-t-p-tu-n-1
